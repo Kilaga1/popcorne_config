@@ -1,2 +1,0 @@
-config SHIELD_POPCORNE
-    def_bool $(shields_list_contains,popcorne)
