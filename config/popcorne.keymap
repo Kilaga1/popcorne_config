@@ -130,7 +130,11 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // This layer is equivalent to the default layer in code 2.
+            // -----------------------------------------------------------------------------------------
+            //         |   Q   |   W   |   E   |   R   |   T   |         |  Y   |   U   |   I   |   O   |   P   |       
+            //         |   A   |   S   |   D   |   F   |   G   |         |  H   |   J   |   K   |   L   |   ;   |       
+            //         |   Z   |   X   |   C   |   V   |   B   |         |  N   |   M   |   ,   |   .   |   /   |       
+            //                         |  GUI  |  LWR  |  SPC  |         |BACSPC|  ENT  | RALT  |
             bindings = <
                 &trans  &kp Q  &kp W  &kp E       &kp R  &kp T        &kp Y          &kp U  &kp I             &kp O    &kp P     &trans
                 &trans  &kp A  &kp S  &kp D       &kp F  &kp G        &kp H          &kp J  &kp K             &kp L    &kp SEMI  &trans
@@ -140,7 +144,11 @@
         };
 
         num_sym {
-            // This layer is equivalent to the num_sym layer in code 2.
+            // -----------------------------------------------------------------------------------------
+            //         |   !   |   @   |   #   |   $   |   %   |         |   ^   |   &   |   *   |   (   |   )   |
+            //         |       |       |       |       |       |         |   -   |   =   |   [   |   ]   |   \   | 
+            //         |       |       |       |       |       |         |   _   |   +   |   {   |   }   |   |   | 
+            //                         |  GUI  |       |  SPC  |         |  RET  |  TAB  |  RALT |
             bindings = <
                 &trans  &kp N1         &kp N2              &kp N3        &kp N4     &kp N5       &kp N6     &kp N7     &kp N8    &kp N9    &kp N0    &trans
                 &trans  &kp LA(TAB)    &kp LA(LEFT_SHIFT)  &kp UP_ARROW  &trans     &kp TILDE    &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &trans
@@ -150,7 +158,11 @@
         };
 
         func {
-            // This layer is equivalent to the func layer in code 2.
+            // -----------------------------------------------------------------------------------------
+            //         |   F1  |   F2  |   F3  |   F4  |   F5  |         |   F6  |   F7  |   F8  |   F9  |  F10  | BSPC  |
+            //         |  BT1  |  BT2  |  BT3  |  BT4  |  BT5  |         |       |       |       |       |       |       |
+            //         |       |       |       |       |       |         |       |       |       |       |       |       |
+            //                         |  GUI  |       |  SPC  |         |  RET  |  TAB  |  RALT |
             bindings = <
                 &trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6   &kp F7  &kp F8    &kp F9  &kp F10  &trans
                 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &trans  &trans    &trans  &trans   &trans
