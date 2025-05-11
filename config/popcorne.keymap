@@ -152,7 +152,7 @@
             bindings = <   
                 &kp ESCAPE        &trans           &trans               &trans           &kp TILDE    &kp MINUS      &kp EQUAL      &kp LBKT   &kp RBKT   &kp BSLH 
                 &kp N1            &kp N2           &kp N3               &kp N4           &kp N5       &kp N6         &kp N7         &kp N8     &kp N9     &kp N0
-                &mt LEFT_ALT TAB  &kp LG(LS(S))    &kp LA(LEFT_SHIFT)   &trans           &kp GRAVE    &kp UNDER      &kp PLUS       &kp LBRC   &kp RBRC   &kp PIPE
+                &kp LA(TAB)       &kp LG(LS(S))    &kp LA(LEFT_SHIFT)   &trans           &kp GRAVE    &kp UNDER      &kp PLUS       &kp LBRC   &kp RBRC   &kp PIPE
                                   &kp LGUI         &trans               &kp SPACE        &trans       &kp TAB        &kp RALT
             >;
         };
