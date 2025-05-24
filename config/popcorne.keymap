@@ -148,12 +148,12 @@
             //         |  ESC  |SCR PIC| LANG  |       |       |         |   -   |   =   |   [   |   ]   |   \   | 
             //         |   1   |   2   |   3   |   4   |   5   |         |   6   |   7   |   8   |   9   |   0   |
             //         |ALT TAB|  CUT  | COPY  | PASTE |  SAVE |         |   _   |   +   |   {   |   }   |   |   | 
-            //                         |  GUI  |       |  SPC  |         |       |  TAB  |  RALT |
+            //                         |  GUI  |  TAB  |  SPC  |         |       |       |  RALT |
             bindings = <   
                 &kp ESCAPE        &kp LG(LS(S))    &kp LA(LEFT_SHIFT)   &trans           &trans       &kp MINUS      &kp EQUAL      &kp LBKT   &kp RBKT   &kp BSLH 
                 &kp N1            &kp N2           &kp N3               &kp N4           &kp N5       &kp N6         &kp N7         &kp N8     &kp N9     &kp N0
                 &kp LA(TAB)       &kp LC(X)        &kp LC(C)            &kp LC(V)        &kp LC(S)    &kp UNDER      &kp PLUS       &kp LBRC   &kp RBRC   &kp PIPE
-                                  &kp LGUI         &trans               &kp SPACE        &trans       &kp TAB        &kp RALT
+                                  &kp LGUI         &kp TAB              &kp SPACE        &trans       &trans         &kp RALT
             >;
         };
 
