@@ -1,8 +1,6 @@
 if SHIELD_POPCORNE_LEFT
 
 # Name must be less than 16 characters long!
-if SHIELD_POPCORNE_LEFT
-
 config ZMK_KEYBOARD_NAME
     default "Popcorne"
 
